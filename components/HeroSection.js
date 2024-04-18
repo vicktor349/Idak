@@ -4,7 +4,7 @@ import { RiSearch2Line } from "react-icons/ri";
 const HeroSection = () =>
 {
     return (
-        <div className="bg-[url('/images/herobanner.png')] bg-auto h-screen w-full bg-no-repeat flex items-center justify-center ">
+        <div className="bg-[url('/images/herobanner.png')] bg-auto ssm:h-[40rem]  w-full bg-no-repeat flex items-center justify-center ">
             <div className='space-y-5 '>
                 <h3 className='ssm:text-2xl text-center sm:text-3xl md:text-5xl text-black/75 font-bold'>Discover Your <span className='text-primaryColor'>Perfect Rental</span></h3>
                 <p className='text-center ssm:text-sm sm:text-2xl'>Rent Cars, Houses, and Items in Just a Few Clicks</p>
