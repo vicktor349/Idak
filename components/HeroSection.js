@@ -19,7 +19,7 @@ const HeroSection = () =>
                     <input type="text" className='flex-grow md:h-16 lg:h-20 rounded-r-full pl-5 pr-5 outline-none' placeholder='Search for locations...' />
                     <div className='mr-3 bg-primaryColor md:w-10 md:h-10 lg:w-14 lg:h-14 flex items-center justify-center rounded-full hover:cursor-pointer'><RiSearch2Line size={24} className='text-white rounded-full' /></div>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 ssm:grid md:hidden'>
                     <div className='bg-white flex h-12 rounded-full'>
                         <input type="text" className='px-5 rounded-full w-full outline-none' placeholder='Search for cars, houses, and more...' />
                         <RiSearch2Line size={24} className='text-gray-500 mr-3 mt-3' />
