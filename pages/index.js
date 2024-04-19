@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import TopCategories from "@/components/TopCategories";
 import Head from "next/head";
 
 
@@ -12,6 +13,7 @@ export default function Home()
       </Head>
       <main>
         <HeroSection />
+        <TopCategories />
       </main>
     </>
   );
