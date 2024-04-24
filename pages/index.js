@@ -1,3 +1,4 @@
+import FeaturedListings from "@/components/FeaturedListings";
 import HeroSection from "@/components/HeroSection";
 import TopCategories from "@/components/TopCategories";
 import Head from "next/head";
@@ -14,6 +15,7 @@ export default function Home()
       <main>
         <HeroSection />
         <TopCategories />
+        <FeaturedListings />
       </main>
     </>
   );
