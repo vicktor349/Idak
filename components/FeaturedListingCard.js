@@ -6,7 +6,7 @@ const FeaturedListingCard = () =>
 {
     return (
         <div>
-            <div className='ssm:space-y-10 sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto ssm:mx-4 sm:mx-7 gap-5'>
+            <div className='ssm:space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto ssm:mx-4 sm:mx-7 gap-5'>
                 {featuredlistingdata.map((housing) => (
                     <div className='border border-gray-200 border-solid rounded-xl' key={housing.id}>
                         <div style={{ backgroundImage: `url(${housing.imageurl})` }} className='ssm:h-80 sm:h-48 bg-cover md:h-[21rem] lg:h-56 xl:h-64 2xl:h-[21rem] bg-no-repeat relative rounded-t-xl'>
