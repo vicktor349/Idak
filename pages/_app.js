@@ -5,7 +5,7 @@ import { MantineProvider } from "@mantine/core";
 export default function App({ Component, pageProps })
 {
   return (
-    <div className="max-w-[1615px]">
+    <div className="max-w-[1787px]">
       <MantineProvider>
         <Layout>
           <Component {...pageProps} />
