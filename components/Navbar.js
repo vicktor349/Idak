@@ -13,8 +13,8 @@ const Navbar = () =>
     const activeColor = (p) => location.pathname === p ? "#E93740" : "#000000"
     const [opened, { toggle }] = useDisclosure();
     return (
-        <div className='bg-white sticky top-0'>
-            <div className='ssm:mx-2 sm:mx-6 lg:mx-16 xl:mx-30 z-[999]'>
+        <div className='bg-white sticky top-0 z-[999]'>
+            <div className='ssm:mx-2 sm:mx-6 lg:mx-16 xl:mx-30'>
                 <div className='flex items-center h-24'>
                     <Link href="/">
                         <Image src={"/images/logo.png"} alt='Website Logo' width={500} height={500} className='w-24 h-10' priority />
