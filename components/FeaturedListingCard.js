@@ -13,7 +13,7 @@ const FeaturedListingCard = () =>
                             <p className='bg-green-500 rounded-full text-white w-fit py-2 px-4 text-sm absolute top-7 right-10 select-none'>For Rent</p>
                         </div>
                         <div className='space-y-3 mx-6 my-3'>
-                            <p><span className='text-red-500'>{housing.pricing}</span>/Month</p>
+                            <p><span className='text-red-500'>{housing.pricing} LKR</span>/Month</p>
                             <p className="font-semibold xl:text-xl">{housing.location}</p>
                             <section className='flex justify-between'>
                                 <p className="font-light">{housing.bedrooms} bedroom</p>
