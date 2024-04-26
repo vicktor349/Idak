@@ -18,7 +18,7 @@ const Selection = ({ text }) =>
 const FeaturedListings = () =>
 {
     return (
-        <div className='h-[90vh] md:mx-7 lg:mx-16'>
+        <div className='md:mx-7 lg:mx-16'>
             <h3 className='font-bold text-black/80 ssm:text-2xl sm:text-3xl text-center'>Featured Listings</h3>
             <div className='flex items-center justify-center mt-2 space-x-3'>
                 <p className='bg-primaryColor text-center ssm:w-20 sm:w-28 h-2 rounded-full'></p>
@@ -35,6 +35,7 @@ const FeaturedListings = () =>
             </div>
             <div className='xl:hidden my-12'>
                 <Carousel
+                    className='grid grid-cols-6'
                     loop
                     slideSize={{ sm: "25%", md: "20%" }}
                     slideGap="md"
