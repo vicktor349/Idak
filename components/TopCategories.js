@@ -4,7 +4,6 @@ import { GoHome } from "react-icons/go";
 import { IoCompassOutline, IoEllipsisHorizontal } from "react-icons/io5";
 import { PiCurrencyDollarThin } from "react-icons/pi";
 import { Carousel } from '@mantine/carousel';
-import classes from "../styles/Carousel.module.css"
 
 
 const Categories = ({ text, iconComponent, backgroundColor }) =>
@@ -49,11 +48,10 @@ const TopCategories = () =>
             <div>
                 <Carousel
                     loop
-                    slideSize={{ sm: "25%" }}
+                    slideSize={{ md: "33.33333%", sm: "50%", xs: "100%" }}
                     slideGap="md"
                     align="start"
-                    classNames={classes}
-                    className='ssm:grid xl:hidden sm:mx-20 my-10'
+                    className='ssm:grid xl:hidden ssm:mx-3 sm:mx-10 my-10'
                 >
                     <Carousel.Slide>
                         <Categories backgroundColor="blue-600" text="Commercial Properties" iconComponent={<PiCurrencyDollarThin className='text-blue-500' />} />
