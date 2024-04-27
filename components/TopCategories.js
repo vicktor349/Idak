@@ -23,7 +23,7 @@ const Categories = ({ text, iconComponent, backgroundColor }) =>
             <div className={`${bgColorClass} w-10 h-10 flex items-center justify-center rounded-full ml-3`}>
                 {iconComponent}
             </div>
-            <p className="mx-3">{text}</p>
+            <p className="mx-3 truncate">{text}</p>
         </div>
     );
 };
@@ -48,10 +48,10 @@ const TopCategories = () =>
             <div>
                 <Carousel
                     loop
-                    slideSize={{ md: "33.33333%", sm: "50%", xs: "100%" }}
+                    slideSize={{ md: "33.33333%", sm: "50%", xs: "50%" }}
                     slideGap="md"
-                    align="start"
                     className='ssm:grid xl:hidden ssm:mx-3 sm:mx-10 my-10'
+                    withControls={false}
                 >
                     <Carousel.Slide>
                         <Categories backgroundColor="blue-600" text="Commercial Properties" iconComponent={<PiCurrencyDollarThin className='text-blue-500' />} />

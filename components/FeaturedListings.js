@@ -7,7 +7,7 @@ const Selection = ({ text }) =>
     return (
         <div className="text-gray-900 border-gray-200 bg-gray-300 rounded-full border-solid hover:cursor-pointer hover:text-white hover:bg-primaryColor hover:border-primaryColor">
             <div className="flex items-center p-2 py-4 justify-center">
-                <p className='text-sm'>{text}</p>
+                <p className='text-sm truncate'>{text}</p>
             </div>
         </div>
     )
@@ -35,9 +35,9 @@ const FeaturedListings = () =>
             <div className='xl:hidden my-12'>
                 <Carousel
                     loop
-                    slideSize={{ md: "33.33333%", sm: "50%", xs: "100%" }}
+                    slideSize={{ md: "33.33333%", sm: "50%", xs: "50%" }}
                     slideGap="md"
-                    align="start"
+                    withControls={false}
                     className='ssm:grid xl:hidden ssm:mx-3 sm:mx-10 my-10'
                 >
                     <Carousel.Slide><Selection text="All Items" /></Carousel.Slide>
