@@ -5,7 +5,7 @@ const Card = ({ text, text2, text3, paragraph1, paragraph2, paragraph3 }) =>
 {
     return (
         <div className='bg-black/75 rounded-[1.7rem] ssm:mx-2 sm:mx-0'>
-            <div className='ssm:grid ssm:place-items-center sm:flex sm:justify-between items-center ssm:h-64 sm:h-52 ssm:px-5 sm:px-10 md:px-4 lg:px-12 lg:mx-12 xl:mx-28'>
+            <div className='ssm:grid ssm:place-items-center sm:flex sm:justify-between items-center ssm:h-80 sm:h-52 ssm:px-5 sm:px-10 md:px-4 lg:px-12 lg:mx-12 xl:mx-28'>
                 <div>
                     <p className='text-white text-3xl text-center'>{text} +</p>
                     <p className='text-white text-sm ssm:text-center sm:text-start'>{paragraph1}</p>
