@@ -1,6 +1,5 @@
 import React from 'react'
 import { Carousel } from '@mantine/carousel';
-import classes from "../styles/Carousel.module.css"
 import FeaturedListingCard from './FeaturedListingCard';
 
 const Selection = ({ text }) =>
@@ -35,12 +34,11 @@ const FeaturedListings = () =>
             </div>
             <div className='xl:hidden my-12'>
                 <Carousel
-                    className='grid grid-cols-6'
                     loop
-                    slideSize={{ sm: "25%", md: "20%" }}
+                    slideSize={{ md: "33.33333%", sm: "50%", xs: "100%" }}
                     slideGap="md"
                     align="start"
-                    classNames={classes}
+                    className='ssm:grid xl:hidden ssm:mx-3 sm:mx-10 my-10'
                 >
                     <Carousel.Slide><Selection text="All Items" /></Carousel.Slide>
                     <Carousel.Slide><Selection text="Residential Spaces" /></Carousel.Slide>
