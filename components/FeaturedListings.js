@@ -5,7 +5,7 @@ import FeaturedListingCard from './FeaturedListingCard';
 const Selection = ({ text }) =>
 {
     return (
-        <div className="text-gray-900 border-gray-200 bg-gray-300 rounded-full border-solid hover:cursor-pointer hover:text-white hover:bg-primaryColor hover:border-primaryColor">
+        <div className="text-gray-900 border-gray-200 bg-gray-300 rounded-full border-solid hover:cursor-pointer xl:hover:text-white xl:hover:bg-primaryColor xl:hover:border-primaryColor">
             <div className="flex items-center p-2 py-4 justify-center">
                 <p className='text-sm truncate'>{text}</p>
             </div>
