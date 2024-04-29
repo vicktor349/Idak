@@ -20,7 +20,7 @@ const HeroSection = () =>
                     <div className='mr-3 bg-primaryColor md:w-10 md:h-10 lg:w-14 lg:h-14 flex items-center justify-center rounded-full hover:cursor-pointer'><RiSearch2Line size={24} className='text-white rounded-full' /></div>
                 </div>
                 <div className='bg-white h-16 mx-4 2xl:w-full rounded-full ssm:flex md:hidden items-center'>
-                    <input type="text" className='flex-grow rounded-r-full pl-5 pr-5 outline-none' placeholder='Search for locations...' />
+                    <input type="text" className='rounded-r-full ml-2 pl-5 pr-5 outline-none' placeholder='Search for locations...' />
                     <div className='bg-primaryColor w-16 h-16 flex items-center justify-center rounded-full hover:cursor-pointer'><RiSearch2Line size={24} className='text-white rounded-full' /></div>
                 </div>
             </div>
