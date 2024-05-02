@@ -1,4 +1,5 @@
 import FeaturedListings from "@/components/FeaturedListings";
+import FeaturedLocation from "@/components/FeaturedLocation";
 import HeroSection from "@/components/HeroSection";
 import Performance from "@/components/Performance";
 import TopCategories from "@/components/TopCategories";
@@ -18,6 +19,7 @@ export default function Home()
         <TopCategories />
         <FeaturedListings />
         <Performance />
+        <FeaturedLocation />
       </main>
     </>
   );
