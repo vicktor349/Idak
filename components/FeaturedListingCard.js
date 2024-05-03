@@ -5,7 +5,7 @@ import React from 'react'
 const FeaturedListingCard = () =>
 {
     return (
-        <div>
+        <div data-aos="fade-up">
             <div className='ssm:space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 mx-auto ssm:mx-4 sm:mx-7 gap-5'>
                 {featuredlistingdata.map((housing) => (
                     <div className='border border-gray-200 border-solid rounded-xl' key={housing.id}>
