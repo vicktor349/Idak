@@ -24,13 +24,13 @@ const FeaturedListings = () =>
                 <p className='bg-primaryColor text-center w-5 h-2 rounded-full'></p>
             </div>
             <div className='grid-cols-7 gap-3 my-12 ssm:hidden xl:grid'>
-                <Selection text="All Items" />
-                <Selection text="Residential Spaces" />
-                <Selection text="Sport Venue" />
-                <Selection text="Meeting Spaces" />
-                <Selection text="Vans & Buses" />
-                <Selection text="Cars & SUVs" />
-                <Selection text="Industrial Vehicles" />
+                <div data-aos='zoom-in' data-aos-duration="1000"><Selection text="All Items" /></div>
+                <div data-aos="zoom-in" data-aos-duration="1500"><Selection text="Residential Spaces" /></div>
+                <div data-aos="zoom-in" data-aos-duration="2000"><Selection text="Sport Venue" /></div>
+                <div data-aos="zoom-in" data-aos-duration="2500"><Selection text="Meeting Spaces" /></div>
+                <div data-aos="zoom-in" data-aos-duration="3000"><Selection text="Vans & Buses" /></div>
+                <div data-aos="zoom-in" data-aos-duration="3500"><Selection text="Cars & SUVs" /></div>
+                <div data-aos="zoom-in" data-aos-duration="4000"><Selection text="Industrial Vehicles" /></div>
             </div>
             <div className='xl:hidden my-12'>
                 <Carousel
